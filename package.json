@@ -1,0 +1,135 @@
+{
+  "name": "ide-error-soundboard",
+  "displayName": "IDE Error Soundboard",
+  "description": "Monitors terminal command failures and plays a selected sound. Configurable from the IDE and the terminal.",
+  "version": "0.1.0",
+  "publisher": "pareekshith-palat",
+  "author": {
+    "name": "Pareekshith Palat"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parip/ide-error-soundboard"
+  },
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "keywords": [
+    "soundboard",
+    "terminal",
+    "error",
+    "audio",
+    "notification"
+  ],
+
+  "main": "./src/extension.js",
+  "bin": {
+    "soundboard": "./bin/soundboard.js"
+  },
+  "activationEvents": [
+    "*",
+    "onStartupFinished",
+    "onCommand:ideErrorSoundboard.selectSound",
+    "onCommand:ideErrorSoundboard.addSound",
+    "onCommand:ideErrorSoundboard.importSoundFiles",
+    "onCommand:ideErrorSoundboard.removeSound",
+    "onCommand:ideErrorSoundboard.testSound",
+    "onCommand:ideErrorSoundboard.toggleMonitoring",
+    "onCommand:ideErrorSoundboard.openSharedConfig",
+    "onCommand:ideErrorSoundboard.showTerminalHelp",
+    "onCommand:ideErrorSoundboard.checkStatus",
+    "onCommand:ideErrorSoundboard.importWorkspaceSounds"
+  ],
+  "enabledApiProposals": [
+    "terminalDataWriteEvent"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "ideErrorSoundboard.selectSound",
+        "title": "IDE Error Soundboard: Select Active Sound"
+      },
+      {
+        "command": "ideErrorSoundboard.addSound",
+        "title": "IDE Error Soundboard: Add Sound"
+      },
+      {
+        "command": "ideErrorSoundboard.importSoundFiles",
+        "title": "IDE Error Soundboard: Import Sound Files"
+      },
+      {
+        "command": "ideErrorSoundboard.removeSound",
+        "title": "IDE Error Soundboard: Remove Sound"
+      },
+      {
+        "command": "ideErrorSoundboard.testSound",
+        "title": "IDE Error Soundboard: Test Active Sound"
+      },
+      {
+        "command": "ideErrorSoundboard.toggleMonitoring",
+        "title": "IDE Error Soundboard: Toggle Monitoring"
+      },
+      {
+        "command": "ideErrorSoundboard.openSharedConfig",
+        "title": "IDE Error Soundboard: Open Shared Config"
+      },
+      {
+        "command": "ideErrorSoundboard.showTerminalHelp",
+        "title": "IDE Error Soundboard: Show Terminal Commands"
+      },
+      {
+        "command": "ideErrorSoundboard.checkStatus",
+        "title": "IDE Error Soundboard: Check Diagnostic Status"
+      },
+      {
+        "command": "ideErrorSoundboard.importWorkspaceSounds",
+        "title": "IDE Error Soundboard: Import Workspace Sounds"
+      }
+    ],
+    "configuration": {
+      "title": "IDE Error Soundboard",
+      "properties": {
+        "ideErrorSoundboard.enabled": {
+          "type": "boolean",
+          "default": true,
+          "description": "Enable terminal monitoring for failed command sounds."
+        },
+        "ideErrorSoundboard.cooldownMs": {
+          "type": "number",
+          "default": 3000,
+          "minimum": 250,
+          "description": "Minimum time between consecutive sound triggers."
+        },
+        "ideErrorSoundboard.preferSharedConfig": {
+          "type": "boolean",
+          "default": true,
+          "description": "When enabled, commands use the shared JSON config so terminal and extension changes stay in sync."
+        },
+        "ideErrorSoundboard.errorTextMatchers": {
+          "type": "array",
+          "default": [
+            "error",
+            "failed",
+            "exception",
+            "traceback",
+            "command not found",
+            "is not recognized"
+          ],
+          "items": {
+            "type": "string"
+          },
+          "description": "Fallback terminal text patterns that can trigger a sound when terminal output contains common failure text."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "lint": "node ./scripts/check-syntax.js",
+    "package": "vsce package",
+    "package:ovsx": "ovsx package"
+  }
+}

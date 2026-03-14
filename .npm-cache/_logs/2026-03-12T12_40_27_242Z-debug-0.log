@@ -1,0 +1,40 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:C:\Users\parip\AppData\Local\nvm\v24.12.0\node_modules\npm\npmrc
+4 silly config load:file:P:\Projects\Sound Board\.npmrc
+5 silly config load:file:C:\Users\parip\.npmrc
+6 silly config load:file:C:\Users\parip\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm pack
+8 verbose argv "pack" "--dry-run"
+9 verbose logfile logs-max:10 dir:P:\Projects\Sound Board\.npm-cache\_logs\2026-03-12T12_40_27_242Z-
+10 verbose logfile P:\Projects\Sound Board\.npm-cache\_logs\2026-03-12T12_40_27_242Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 notice
+14 notice package: ide-error-soundboard@0.1.0
+15 notice Tarball Contents
+16 notice 1.1kB LICENSE
+16 notice 2.8kB README.md
+16 notice 3.5kB bin/soundboard.js
+16 notice 3.7kB package.json
+16 notice 7.1kB src/extension.js
+16 notice 2.1kB src/shared/audio.js
+16 notice 3.4kB src/shared/config.js
+16 notice 455B src/shared/detector.js
+17 notice Tarball Details
+18 notice name: ide-error-soundboard
+19 notice version: 0.1.0
+20 notice filename: ide-error-soundboard-0.1.0.tgz
+21 notice package size: 7.1 kB
+22 notice unpacked size: 24.3 kB
+23 notice shasum: 11c1c9eeb54835d956175d4520f10f3fd55f77b1
+24 notice integrity: sha512-FVJMYrt4szzMZ[...]DqyHGz6EnBupQ==
+25 notice total files: 8
+26 notice
+27 verbose cwd P:\Projects\Sound Board
+28 verbose os Windows_NT 10.0.26200
+29 verbose node v24.12.0
+30 verbose npm  v11.6.2
+31 verbose exit 0
+32 info ok

@@ -1,0 +1,3 @@
+.ide-error-soundboard/**
+.npm-cache/**
+*.log

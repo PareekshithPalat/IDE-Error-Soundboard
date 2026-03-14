@@ -1,0 +1,58 @@
+0 verbose cli C:\nvm4w\nodejs\node.exe C:\nvm4w\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.6.2
+2 info using node@v24.12.0
+3 silly config load:file:C:\Users\parip\AppData\Local\nvm\v24.12.0\node_modules\npm\npmrc
+4 silly config load:file:P:\Projects\Sound Board\.npmrc
+5 silly config load:file:C:\Users\parip\.npmrc
+6 silly config load:file:C:\Users\parip\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm pack
+8 verbose argv "pack" "--dry-run"
+9 verbose logfile logs-max:10 dir:P:\Projects\Sound Board\.npm-cache\_logs\2026-03-12T14_48_25_024Z-
+10 verbose logfile P:\Projects\Sound Board\.npm-cache\_logs\2026-03-12T14_48_25_024Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+13 notice
+14 notice package: ide-error-soundboard@0.1.0
+15 notice Tarball Contents
+16 notice 175B .ide-error-soundboard/config.json
+16 notice 7.1kB .npm-cache/_cacache/content-v2/sha512/15/52/4c62bb78b33ccc6601da1da461a38ef33b378a65ed5eec7e6d579968920466b41ceb1d0c60e163d62ce1686d6328d55abac162a4243ab21c6cfa12706ea5
+16 notice 281.1kB .npm-cache/_cacache/content-v2/sha512/54/61/789cc549b45dc8231f09e0f63705a09313a582275c1c2f9cc739b831a5a4ef066f1f6d43b472bde9d14224ef7e5d5ec7fb05b831075cc625bb16de4bb5d0
+16 notice 7.2kB .npm-cache/_cacache/content-v2/sha512/b2/50/b91f323ed69df5f47a78c4922fe869d02c4f117639cd24de9c137fe0d75c592460f5e864dab1a6db9dd656c5a7efae73a6f8e4f9ba7b1e8eddd39e99f393
+16 notice 716B .npm-cache/_cacache/index-v5/26/f7/f5f40d39e758b0fc62fd9730cca7dd4e8a6e722e76a5a4a629cefbd7f34e
+16 notice 2.0kB .npm-cache/_logs/2026-03-12T12_39_38_363Z-debug-0.log
+16 notice 1.7kB .npm-cache/_logs/2026-03-12T12_40_27_242Z-debug-0.log
+16 notice 2.8kB .npm-cache/_logs/2026-03-12T14_48_10_214Z-debug-0.log
+16 notice 794B .npm-cache/_logs/2026-03-12T14_48_25_024Z-debug-0.log
+16 notice 0B .npm-cache/_update-notifier-last-checked
+16 notice 46B .vscodeignore
+16 notice 1.1kB LICENSE
+16 notice 3.0kB README.md
+16 notice 4.7kB bin/soundboard.js
+16 notice 10.7kB ide-error-soundboard-0.1.0.vsix
+16 notice 3.6kB package.json
+16 notice 637B scripts/check-syntax.js
+16 notice 31.8kB sounds/bruh.mp3
+16 notice 14B sounds/emotional-damage.mp3
+16 notice 14B sounds/fahhh.mp3
+16 notice 190.5kB sounds/fbi.mp3
+16 notice 41.1kB sounds/yeet.mp3
+16 notice 13.5kB src/extension.js
+16 notice 3.5kB src/shared/audio.js
+16 notice 3.4kB src/shared/config.js
+16 notice 592B src/shared/detector.js
+17 notice Tarball Details
+18 notice name: ide-error-soundboard
+19 notice version: 0.1.0
+20 notice filename: ide-error-soundboard-0.1.0.tgz
+21 notice package size: 563.1 kB
+22 notice unpacked size: 611.6 kB
+23 notice shasum: 28413674874a998d281ce697c96b922a65877ea0
+24 notice integrity: sha512-xFm+nu+p2kS9v[...]Hh4Iojix/2Ltg==
+25 notice total files: 26
+26 notice
+27 verbose cwd P:\Projects\Sound Board
+28 verbose os Windows_NT 10.0.26200
+29 verbose node v24.12.0
+30 verbose npm  v11.6.2
+31 verbose exit 0
+32 info ok

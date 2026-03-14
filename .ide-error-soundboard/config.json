@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "enabled": true,
+  "activeSound": "beep",
+  "cooldownMs": 3000,
+  "sounds": {
+    "beep": {
+      "type": "beep",
+      "label": "System Beep"
+    }
+  }
+}

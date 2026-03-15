@@ -71,7 +71,7 @@ Default error text matchers are:
 In Antigravity, direct terminal output inspection uses the proposed `terminalDataWriteEvent` API. That means full typo-style detection such as `giit`, `npmm`, or similar terminal mistakes requires launching Antigravity with:
 
 ```powershell
-antigravity --enable-proposed-api parip.ide-error-soundboard
+antigravity --enable-proposed-api pareekshith-palat.ide-error-soundboard
 ```
 
 Without that flag, the extension may still load, but arbitrary terminal text detection may be incomplete depending on what the host provides.
@@ -82,7 +82,7 @@ Without that flag, the extension may still load, but arbitrary terminal text det
 - A VS Code compatible editor
 - For Antigravity full terminal text detection:
   - the updated `.vsix`
-  - Antigravity launched with `--enable-proposed-api parip.ide-error-soundboard`
+  - Antigravity launched with `--enable-proposed-api pareekshith-palat.ide-error-soundboard`
 
 ## Installation
 
@@ -103,13 +103,13 @@ You can install it from your editor's Extensions view using "Install from VSIX".
 3. Launch Antigravity from a terminal with:
 
 ```powershell
-antigravity --enable-proposed-api parip.ide-error-soundboard
+antigravity --enable-proposed-api pareekshith-palat.ide-error-soundboard
 ```
 
 If `antigravity` is not available in `PATH`, launch the executable directly:
 
 ```powershell
-& "C:\Path\To\Antigravity.exe" --enable-proposed-api parip.ide-error-soundboard
+& "C:\Path\To\Antigravity.exe" --enable-proposed-api pareekshith-palat.ide-error-soundboard
 ```
 
 ## Antigravity Setup
@@ -125,7 +125,7 @@ If you launch Antigravity normally without the proposed API flag:
 Recommended startup:
 
 ```powershell
-antigravity --enable-proposed-api parip.ide-error-soundboard
+antigravity --enable-proposed-api pareekshith-palat.ide-error-soundboard
 ```
 
 If you want this behavior every time, add the same argument to your Antigravity shortcut target.
@@ -443,7 +443,7 @@ Check that the extension is installed and active. If needed, restart the editor 
 Launch Antigravity with:
 
 ```powershell
-antigravity --enable-proposed-api parip.ide-error-soundboard
+antigravity --enable-proposed-api pareekshith-palat.ide-error-soundboard
 ```
 
 ### Where are logs written?
